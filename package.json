@@ -1,0 +1,18 @@
+{
+  "name": "nuekit-cli",
+  "version": "0.1.6",
+  "description": "Command Line Interface for Nue",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kon-pas/nuekit-cli.git"
+  },
+  "exports": "./index.js",
+  "bin": {
+    "nue": "./src/binary.js"
+  },
+  "dependencies": {
+    "nuejs-core": "^0.1.0"
+  }
+}
